@@ -36,7 +36,7 @@ const Home = () => {
                   w-[10rem] h-[10rem] lg:w-full lg:h-full"
             >
               <motion.img
-                src="./public/eza-picsay.png"
+                src="./public/profilePicture.png"
                 alt="fahrezaImage"
                 className="ml-1 object-cover"
               />
@@ -138,7 +138,7 @@ const Home = () => {
               className="rounded-nyobain overflow-hidden flex items-end justify-center bg-sky-500 
               w-[160px] h-[160px] lg:w-full lg:h-full "
             >
-              <img src="./public/eza-picsay.png" alt="profile-picture" className="" />
+              <img src="./public/profilePicture.png" alt="profile-picture" className="" />
             </div>
           </motion.div>
         </div>
