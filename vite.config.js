@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/https://fahreza-pratama-hidayat-bifxtdzx3.vercel.app/',
+  base: '/fahreza-pratama-hidayat-gaxler9cx/',
   plugins: [react()],
 })
