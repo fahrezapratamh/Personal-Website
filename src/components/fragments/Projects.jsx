@@ -31,7 +31,7 @@ const Projects = () => {
       >
         <div className="rounded-md shadow-lg relative overflow-hidden group transition duration-1000 transform">
           <img
-            src="src\assets\Personal Website.png"
+            src="./public/Personal Website.png"
             alt="Projects-1"
             className="rounded-md"
           />

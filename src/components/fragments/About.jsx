@@ -38,7 +38,7 @@ const About = () => {
               stiffness: 120, // Menyesuaikan kekakuan untuk animasi yang lebih halus
               delay: 0.1 * 2,
             }}
-            src="src/assets/foto.jpg"
+            src="./public/foto.jpg"
             className="rounded-[40px] hover:rotate-1 lg:w-[320px] lg:h-[320px]  w-[200px] h-[200px] ml-5 transition-transform cursor-pointer"
             alt="profile picture"
           />

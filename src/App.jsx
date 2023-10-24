@@ -27,34 +27,3 @@ function App() {
   );
 }
 export default App;
-
-// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-// import { Router } from 'react-router-dom';
-
-// // Komponen halaman About
-// const AboutPage = () => {
-//   return <div>About Page</div>;
-// };
-
-// const Navbar = () => {
-//   return (
-//     <Router>
-//       <div>
-//         <ul>
-//           <li>
-//             <a href="/">Home</a>
-//           </li>
-//           <li>
-//             <a href="/about">About</a>
-//           </li>
-//         </ul>
-
-//         <Routes>
-//           <Route path="/about" component={AboutPage} />
-//         </Routes>
-//       </div>
-//     </Router>
-//   );
-// };
-
-// export default Navbar;
