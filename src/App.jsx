@@ -9,7 +9,7 @@ import About from "./components/fragments/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Experience from "./components/fragments/Experience";
 import Projects from "./components/fragments/Projects";
-
+import './App.css'
 
 function App() {
   return (
