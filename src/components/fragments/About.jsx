@@ -9,12 +9,12 @@ const About = () => {
 
   useEffect(() => {
     {activeNavItem === "About" ? setIsVisible(true) : setIsVisible(false)}
-  });
+  },);
 
   return (
     <>
       <motion.section
-        className="lg:mt-[7rem] lg:mb-[5.5rem] md:pb-[40vh] mt-5 pb-3"
+        className="lg:mt-[7rem] lg:mb-[5.5rem] md:pb-[40vh] md:mt-2 mt-5 pb-3"
         initial={{ opacity: 0 }}
         animate={{ opacity: isVisible ? 1 : 0 }}
         transition={{ duration: 0.5 }}
@@ -24,7 +24,7 @@ const About = () => {
           initial={{ scale: 0 }}
           animate={{ scale: isVisible ? 1 : 0 }}
           transition={{ duration: 1.2 }}
-          className="font-Poppins dark:text-white font-bold text-center text-3xl cursor-pointer"
+          className="dark:text-white font-bold text-center text-3xl cursor-pointer font-Poppins"
         >
           About Me
         </motion.h1>
@@ -44,7 +44,7 @@ const About = () => {
           />
           <div className="flex flex-col items-center lg:mx-[5rem] md:mx-7">
             <motion.p
-              className="dark:text-white font-roboto px-11 py-5 text-justify md:px-[5rem]"
+              className="dark:text-white font-Poppins px-11 py-5 text-justify md:px-[5rem]"
               initial={{ y: 500, opacity: 0 }}
               animate={{
                 y: isVisible ? [300, 200, 100, 0] : -500,
@@ -58,10 +58,7 @@ const About = () => {
                 times: [0, 0.9, 1], // Mengatur waktu untuk animasi pada 60% dari durasi total
               }}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
-              culpa? Incidunt accusantium maiores sit assumenda. Voluptatibus
-              perspiciatis adipisci ut dolore at quam reprehenderit doloribus
-              illum aperiam repudiandae, a aspernatur laboriosam.
+             Hello everyone! I am a FrontEndDeveloper who is still new to the world of website programming, which I have only been studying in the world of programming for about 6 months since sitting in college semester 2 with an informatics engineering major. and I hope I will always learn new things to be able to become a quality FrontEndDevolover.
             </motion.p>
             <div className="flex items-center justify-around w-full flex-col lg:flex-row ">
               <motion.div
@@ -70,22 +67,22 @@ const About = () => {
                 animate={{ scale: isVisible ? 1 : 0 }} // Animasi saat muncul
                 transition={{ duration: 1, delay: 0.1 * 3, ease: "easeOut" }}
               >
-                <div className="flex flex-col items-center justify-center px-20 py-5 rounded-lg lg:w-1/2 dark:bg-slate-800 shadow-lg">
+                <div className="flex flex-col items-center justify-center px-5 py-5 rounded-lg lg:w-[300px] w-[300px]  dark:bg-slate-800 shadow-lg">
                   <i className="bx bxs-medal text-2xl dark:text-white"></i>
                   <h2 className="dark:text-white font-semibold ">Experience</h2>
                   <h4 className="text-slate-500 ">6 + Months</h4>
                   <p className="text-slate-500">Front End Devolover</p>
                 </div>
                 <motion.div
-                  className="flex flex-col items-center justify-center px-20 py-5 rounded-lg drop lg:w-1/2 dark:bg-slate-800 shadow-lg"
+                  className="flex flex-col items-center justify-center px-5 py-5 rounded-lg drop lg:w-[300px] w-[300px] dark:bg-slate-800 shadow-lg"
                   initial={{ scale: 0 }} // Animasi awal (dapat disesuaikan)
                   animate={{ scale: isVisible ? 1 : 0 }} // Animasi saat muncul
                   transition={{ duration: 1, delay: 0.1 * 6, ease: "easeOut" }}
                 >
-                  <i className="bx bxs-medal text-2xl dark:text-white"></i>
-                  <h2 className="dark:text-white font-semibold ">Experience</h2>
-                  <h4 className="text-slate-500 ">6 + Months</h4>
-                  <p className="text-slate-500">Front End Devolover</p>
+                  <i className="bx bxs-graduation text-2xl dark:text-white"></i>
+                  <h2 className="dark:text-white font-semibold ">Education</h2>
+                  <h4 className="text-slate-500 ">Institut Teknologi Garut</h4>
+                  <p className="text-slate-500">SMAN 18 GARUT</p>
                 </motion.div>
               </motion.div>
             </div>

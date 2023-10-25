@@ -104,11 +104,9 @@ const Home = () => {
                 {text}
                 <Cursor cursorStyle="|" />
               </h2>
-              <div className="flex items-center lg:mr-[21rem] lg:pt-5">
-                <motion.h4 className="dark:text-white font-thin text-[20px] text-justify">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Cupiditate, reprehenderit quia? Fugit provident iste autem
-                  numquam corrupti, culpa consequatur incidunt!
+              <div className="flex items-center lg:mr-[21rem] lg:pt-3">
+                <motion.h4 className="dark:text-white font-Poppins text-[16px] text-justify">
+                I am a front-end developer who focuses on developing user interfaces that are attractive and easy to use. by making the appearance as minimalist as possible.
                 </motion.h4>
               </div>
             </div>
@@ -150,7 +148,7 @@ const Home = () => {
             <i className="bx bxl-facebook text-3xl text-sky-500"></i>
           </a>
           <a
-            href="#"
+            href="https://www.instagram.com/f.xezza/"
             className="flex items-center justify-center hover:scale-150 transition-transform"
           >
             <i className="bx bxl-instagram text-3xl text-sky-500"></i>
