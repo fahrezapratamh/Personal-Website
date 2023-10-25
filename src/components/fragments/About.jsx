@@ -44,7 +44,7 @@ const About = () => {
           />
           <div className="flex flex-col items-center lg:mx-[5rem] md:mx-7">
             <motion.p
-              className="dark:text-white font-Poppins px-11 py-5 text-justify md:px-[5rem]"
+              className="dark:text-white font-Poppins px-11 py-5 lg:text-justify md:text-justify  text-justify md:px-[5rem]"
               initial={{ y: 500, opacity: 0 }}
               animate={{
                 y: isVisible ? [300, 200, 100, 0] : -500,
@@ -58,7 +58,7 @@ const About = () => {
                 times: [0, 0.9, 1], // Mengatur waktu untuk animasi pada 60% dari durasi total
               }}
             >
-             Hello everyone! I am a FrontEndDeveloper who is still new to the world of website programming, which I have only been studying in the world of programming for about 6 months since sitting in college semester 2 with an informatics engineering major. and I hope I will always learn new things to be able to become a quality FrontEndDevolover.
+              I am a FrontEndDeveloper who is still new to the world of website programming, which I have only been studying in the world of programming for about 6 months since sitting in college semester 2 with an informatics engineering major. and I hope I will always learn new things to be able to become a quality FrontEndDevolover.
             </motion.p>
             <div className="flex items-center justify-around w-full flex-col lg:flex-row ">
               <motion.div

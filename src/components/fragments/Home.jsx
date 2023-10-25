@@ -70,11 +70,11 @@ const Home = () => {
               {text}
               <Cursor cursorStyle="|" />
             </h3>
-            <div className="flex items-center justify-center pt-1">
-              <p className="dark:text-white px-10 text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Cupiditate, reprehenderit quia? Fugit provident iste autem
-                numquam corrupti, culpa consequatur incidunt!
+            <div className="pt-1 mx-5">
+              <p className="dark:text-white text-justify px-5">
+                I am a front end developer who focuses on developing user
+                interfaces website .that are attractive and easy to use. by making the
+                appearance as minimalist as possible.
               </p>
             </div>
           </div>
@@ -106,7 +106,9 @@ const Home = () => {
               </h2>
               <div className="flex items-center lg:mr-[21rem] lg:pt-3">
                 <motion.h4 className="dark:text-white font-Poppins text-[16px] text-justify">
-                I am a front-end developer who focuses on developing user interfaces that are attractive and easy to use. by making the appearance as minimalist as possible.
+                  I am a front-end developer who focuses on developing user
+                  interfaces that are attractive and easy to use. by making the
+                  appearance as minimalist as possible.
                 </motion.h4>
               </div>
             </div>
@@ -136,7 +138,11 @@ const Home = () => {
               className="rounded-nyobain overflow-hidden flex items-end justify-center bg-sky-500 
               w-[160px] h-[160px] lg:w-full lg:h-full "
             >
-              <img src="/profilePicture.png" alt="profile-picture" className="" />
+              <img
+                src="/profilePicture.png"
+                alt="profile-picture"
+                className=""
+              />
             </div>
           </motion.div>
         </div>
