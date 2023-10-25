@@ -14,7 +14,7 @@ const About = () => {
   return (
     <>
       <motion.section
-        className="lg:mt-[7rem] lg:mb-[5.5rem] md:pb-[40vh] "
+        className="lg:mt-[7rem] lg:mb-[5.5rem] md:pb-[40vh] mt-5 pb-3"
         initial={{ opacity: 0 }}
         animate={{ opacity: isVisible ? 1 : 0 }}
         transition={{ duration: 0.5 }}
