@@ -42,10 +42,10 @@ const NavbarSticky = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["Home", "About", "Skills", "Projects"]; // Add more section IDs if needed
-      // Calculate the current scroll position
+      const sections = ["Home", "About", "Skills", "Projects"]; 
+      
       const scrollPosition = window.scrollY + window.innerHeight / 2;
-      // Mencari Active Section Berdasarkan scroll
+      
       const activeSection = sections.find((sectionId) => {
         const element = document.getElementById(sectionId);
         if (element) {
@@ -58,15 +58,15 @@ const NavbarSticky = () => {
         return false;
       });
       setActiveNavItem(activeSection);
-      if (activeSection === "Home") {
-        history.pushState(null, null, "Home");
-      } else if (activeSection === "About") {
-        history.pushState(null, null, "About");
-      } else if (activeSection === "Skills") {
-        history.pushState(null, null, "Skills");
-      } else if (activeSection === "Projects") {
-        history.pushState(null, null, "Projects");
-      }
+      // if (activeSection === "Home") {
+      //   history.pushState(null, null, "Home");
+      // } else if (activeSection === "About") {
+      //   history.pushState(null, null, "About");
+      // } else if (activeSection === "Skills") {
+      //   history.pushState(null, null, "Skills");
+      // } else if (activeSection === "Projects") {
+      //   history.pushState(null, null, "Projects");
+      // }
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -78,6 +78,7 @@ const NavbarSticky = () => {
   function handleToggel() {
     setShowNav(!showNav)
   }
+  
   return (
     <>
       <div
