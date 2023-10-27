@@ -70,8 +70,8 @@ const Home = () => {
               {text}
               <Cursor cursorStyle="|" />
             </h3>
-            <div className="pt-1 mx-5">
-              <p className="dark:text-white text-justify px-5">
+            <div className="px-5 ">
+              <p className="dark:text-white text-justify">
                 I am a front end developer who focuses on developing user
                 interfaces website .that are attractive and easy to use. by making the
                 appearance as minimalist as possible.
@@ -79,7 +79,7 @@ const Home = () => {
             </div>
           </div>
           <motion.div
-            className="flex items-center w-fit pt-3 ml-14 lg:hidden"
+            className="flex items-center w-fit pt-3 ml-8 lg:hidden"
             initial={{ scale: 0 }}
             animate={{ scale: isVisible ? 1 : 0 }}
             transition={{ ease: "easeOut", duration: 0.5 }}

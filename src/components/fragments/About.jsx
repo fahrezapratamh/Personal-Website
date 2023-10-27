@@ -41,12 +41,13 @@ const About = () => {
               delay: 0.1 * 2,
             }}
             src="/foto.jpg"
-            className="rounded-[40px] hover:rotate-1 lg:w-[320px] lg:h-[320px]  w-[200px] h-[200px] ml-5 transition-transform cursor-pointer"
+            className="rounded-[40px] hover:rotate-1 lg:w-[320px] lg:h-[320px]  w-[200px] h-[200px] lg:ml-5 md:ml-5 transition-transform cursor-pointer"
             alt="profile picture"
           />
           <div className="flex flex-col items-center lg:mx-[5rem] md:mx-7">
+            <div className="mx-7 py-5 lg:mx-9 md:px-8">
             <motion.p
-              className="dark:text-white font-Poppins px-11 py-5 lg:text-justify md:text-justify  text-justify md:px-[5rem]"
+              className="dark:text-white font-Poppins  lg:text-justify md:text-justify text-justify"
               initial={{ y: 500, opacity: 0 }}
               animate={{
                 y: isVisible ? [300, 200, 100, 0] : -500,
@@ -69,6 +70,7 @@ const About = () => {
               with an informatics engineering major. and I hope I will always
               learn new things to be able to become a quality FrontEndDevolover.
             </motion.p>
+            </div>
             <div className="flex items-center justify-around w-full flex-col lg:flex-row ">
               <motion.div
                 className="flex md:flex-row flex-col lg:flex-row gap-5 items-center justify-center "
