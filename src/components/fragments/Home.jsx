@@ -26,7 +26,7 @@ const Home = () => {
       <motion.section
         initial={{ opacity: 0 }}
         animate={{ opacity: isVisible ? 1 : 0 }}
-        className="lg:pt-[9rem] py-[4rem] pb-[45vh] lg:pb-0 lg:py-0  md:pb-[55vh]"
+        className="lg:pt-[9rem] py-[4rem] pb-[45vh] lg:pb-0 lg:py-0  md:pb-[48vh]"
         id="Home"
       >
         <div className="lg:flex items-center justify-center w-full ">

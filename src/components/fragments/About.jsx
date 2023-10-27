@@ -5,16 +5,18 @@ import { Sections } from "../../context/Section";
 /* eslint-disable react/no-unescaped-entities */
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const {activeNavItem} = useContext(Sections)
+  const { activeNavItem } = useContext(Sections);
 
   useEffect(() => {
-    {activeNavItem === "About" ? setIsVisible(true) : setIsVisible(false)}
-  },);
+    {
+      activeNavItem === "About" ? setIsVisible(true) : setIsVisible(false);
+    }
+  });
 
   return (
     <>
       <motion.section
-        className="lg:mt-[7rem] lg:mb-[5.5rem] md:pb-[40vh] md:mt-2 mt-5 pb-3"
+        className="lg:mt-[7rem] lg:mb-[5.5rem] md:pb-[40vh] md:mt-[4rem] mt-5 pb-3 md:py-2"
         initial={{ opacity: 0 }}
         animate={{ opacity: isVisible ? 1 : 0 }}
         transition={{ duration: 0.5 }}
@@ -58,7 +60,14 @@ const About = () => {
                 times: [0, 0.9, 1], // Mengatur waktu untuk animasi pada 60% dari durasi total
               }}
             >
-              I am a FrontEndDeveloper who is still new to the world of website programming, which I have only been studying in the world of programming for about 6 months since sitting in college semester 2 with an informatics engineering major. and I hope I will always learn new things to be able to become a quality FrontEndDevolover.
+              <span className="text-sky-500 font-Poppins font-bold">
+                Hello Everyone!{" "}
+              </span>
+              I am a FrontEndDeveloper who is still new to the world of website
+              programming, which I have only been studying in the world of
+              programming for about 6 months since sitting in college semester 2
+              with an informatics engineering major. and I hope I will always
+              learn new things to be able to become a quality FrontEndDevolover.
             </motion.p>
             <div className="flex items-center justify-around w-full flex-col lg:flex-row ">
               <motion.div
